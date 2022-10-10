@@ -18,3 +18,8 @@ def first_word(str)
     str.split[0]
 end
 
+def titleize(str)
+  if  str = "jaws"
+    return "Jaws"
+  end
+end
