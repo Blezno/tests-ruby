@@ -14,6 +14,10 @@ def reverse_upcase_noLTA(strings)
     strings.reverse.upcase!.delete("LTA")
 end
 
-def array_42(array)
-    
+def array_42(n)
+   n.include?(42)
+end
+
+def magic_array(r)
+    r.sort_by{}
 end
